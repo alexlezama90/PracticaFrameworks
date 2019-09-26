@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="36622" started-at="2019-09-26T22:45:58Z" finished-at="2019-09-26T22:46:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="36622" started-at="2019-09-26T22:45:58Z" finished-at="2019-09-26T22:46:35Z">
+      <class name="com.softtek.test.RegisterUsers">
+        <test-method status="PASS" signature="setBrowser()[pri:0, instance:com.softtek.test.RegisterUsers@59f99ea]" name="setBrowser" is-config="true" duration-ms="11891" started-at="2019-09-26T15:45:46Z" finished-at="2019-09-26T15:45:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method status="PASS" signature="noDBError()[pri:0, instance:com.softtek.test.RegisterUsers@59f99ea]" name="noDBError" duration-ms="19" started-at="2019-09-26T15:45:58Z" description="Test Case No Excel File Found" finished-at="2019-09-26T15:45:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noDBError -->
+        <test-method status="PASS" signature="registerUserInformation([Ljava.lang.String;)[pri:0, instance:com.softtek.test.RegisterUsers@59f99ea]" name="registerUserInformation" duration-ms="24065" started-at="2019-09-26T15:46:01Z" description="Test Case for Register an user" data-provider="UserRegistration" finished-at="2019-09-26T15:46:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@7776ab]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUserInformation -->
+        <test-method status="PASS" signature="registerUserInformation([Ljava.lang.String;)[pri:0, instance:com.softtek.test.RegisterUsers@59f99ea]" name="registerUserInformation" duration-ms="5319" started-at="2019-09-26T15:46:25Z" description="Test Case for Register an user" data-provider="UserRegistration" finished-at="2019-09-26T15:46:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@79179359]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUserInformation -->
+        <test-method status="PASS" signature="registerUserInformation([Ljava.lang.String;)[pri:0, instance:com.softtek.test.RegisterUsers@59f99ea]" name="registerUserInformation" duration-ms="4050" started-at="2019-09-26T15:46:31Z" description="Test Case for Register an user" data-provider="UserRegistration" finished-at="2019-09-26T15:46:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@dbd8e44]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUserInformation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.softtek.test.RegisterUsers@59f99ea]" name="closeBrowser" is-config="true" duration-ms="723" started-at="2019-09-26T15:46:35Z" finished-at="2019-09-26T15:46:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.softtek.test.RegisterUsers -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

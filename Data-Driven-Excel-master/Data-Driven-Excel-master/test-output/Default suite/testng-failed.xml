@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.softtek.test.RegisterUsers">
+        <methods>
+          <include name="noDBError"/>
+          <include name="closeBrowser"/>
+          <include name="setBrowser"/>
+        </methods>
+      </class> <!-- com.softtek.test.RegisterUsers -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,38 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+<<<<<<< HEAD
+=======
+*.nar
+>>>>>>> 166d1677920b8bba937377aa3989629b7730ff64
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+<<<<<<< HEAD
+# Drivers
+*.exe
+*.iml
+
+# Folders
+target/*
+.idea/*
+
+
+=======
+>>>>>>> 166d1677920b8bba937377aa3989629b7730ff64
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
